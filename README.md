@@ -1,4 +1,7 @@
-## nestjs 开发模板
+# Nest.js 开发模板
+
+- typeorm mysql
+
 
 **列举**
 
