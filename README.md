@@ -28,3 +28,9 @@
   - log(日志)
   - swagger
 - utils(工具)
+
+
+---
+**说明**
+
+主要讲接口放在`core` `moudle`上，`share` `utils` 则是应对后期的业务进行拓展的功能性模块
