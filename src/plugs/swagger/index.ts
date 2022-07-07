@@ -1,7 +1,6 @@
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
-
-// let Version = require('src/../page')
-export function useSwagger(app: any) {
+import { INestApplication } from "@nestjs/common";
+export function useSwagger(app: INestApplication) {
     const config = new DocumentBuilder()
         .setTitle('接口文档')
         .setDescription('接口文档')

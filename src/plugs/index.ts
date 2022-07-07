@@ -1,7 +1,8 @@
 
 import { useSwagger } from "./swagger";
 import { useLogger } from "./log";
-export function usePlugs(app: any) {
+import { INestApplication } from "@nestjs/common";
+export function usePlugs(app: INestApplication) {
     useSwagger(app);
     // useLogger(app);
 }
