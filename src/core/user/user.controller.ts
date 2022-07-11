@@ -56,13 +56,13 @@ export class UserController {
         ApiResult.success();
     }
 
-    /**
-     * 缓存测试 demo
-     */
-    @Post('create')
-    async cacheTest() {
-        this.userService.cacheTest();
-        ApiResult.success([]);
-    }
+    // /**
+    //  * 缓存测试 demo
+    //  */
+    // @Post('create')
+    // async cacheTest() {
+    //     this.userService.cacheTest();
+    //     ApiResult.success([]);
+    // }
 
 }
