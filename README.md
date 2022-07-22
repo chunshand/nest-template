@@ -14,6 +14,7 @@
 - core(核心)
   - user
   - common
+  - ws (port:3002)
 - share(共享)
   - db
   - email
