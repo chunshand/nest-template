@@ -36,6 +36,11 @@
   - swagger
 - utils(工具)
 
+```
+ws 
+ws://127.0.0.1:3002
+message:{"event":"events","data":123}
+```
 
 ---
 **说明**

@@ -45,7 +45,6 @@ export class WsAdapter implements WebSocketAdapter {
             console.log('ws解析json出错', error);
             return EMPTY;
         }
-
         const messageHandler = handlers.find(
             handler => handler.message === message.event,
         );
